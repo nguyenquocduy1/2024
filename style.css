@@ -71,3 +71,31 @@ body{
     font-size: 25px;
     font-family: 'Lobster', cursive;
 }
+.footer {
+    height: 250px;
+    font-size: 20px;
+    
+    color: skyblue;
+    padding-top: 100px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    font-family: 'Dancing Script', cursive;
+
+    /* Thêm các thuộc tính để căn giữa theo chiều dọc và chiều ngang */
+    position: absolute;
+    top: 80%;
+    left: 58%;
+    transform: translate(-80%, -50%);
+}
+
+
+ 
+.footer button {
+    background-color: blueviolet;
+    color: skyblue;
+    padding: 5px 8px;
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 10px; /* Giá trị này có thể được điều chỉnh để làm cho bo tròn lớn hơn hoặc nhỏ hơn */
+}
+
